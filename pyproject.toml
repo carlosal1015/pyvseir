@@ -1,6 +1,26 @@
+[tool.poetry]
+name = "pyvseir"
+version = "0.1.0"
+description = "Exercises of mathematical epidemiology"
+authors = ["Carlos Aznarán Laos <caznaranl@uni.pe>"]
+license = "GPL2"
+
+[tool.poetry.dependencies]
+python = ">=3.7,<3.10"
+matplotlib = "^3.4.3"
+scipy = "^1.7.1"
+
+[tool.poetry.dev-dependencies]
+black = "^21.9b0"
+flake8 = "^4.0.1"
+pylint = "^2.11.1"
+isort = "^5.9.3"
+tox = "^3.24.4"
+pre-commit = "^2.15.0"
+
 [build-system]
-requires = ["setuptools>=42", "wheel"]
-build-backend = "setuptools.build_meta"
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
 
 [tool.isort]
 profile = "black"

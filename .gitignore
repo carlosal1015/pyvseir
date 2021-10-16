@@ -8,3 +8,6 @@ build/
 .cache/
 *.egg-info/
 .pytest_cache/
+.tox/
+.vscode/
+.venv/

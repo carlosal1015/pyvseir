@@ -19,7 +19,7 @@ jobs:
       - checkout
       # The tests
       - run:
-          command: tox -- --cov pyfoobar --cov-report xml --cov-report term
+          command: tox -- --cov pyvseir --cov-report xml --cov-report term
           env:
             MPLBACKEND: Agg
       # submit to codecov

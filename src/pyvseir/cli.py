@@ -16,16 +16,16 @@ def _get_parser():
     import argparse
 
     parser = argparse.ArgumentParser(
-        description=("Dummy pyfoobar executable."),
+        description=("Dummy pyvseir executable."),
         formatter_class=argparse.RawTextHelpFormatter,
     )
 
     parser.add_argument("number", type=int, help="number to show")
 
-    __copyright__ = "Copyright (c) 2019-2020 Nico Schlömer <nico.schloemer@gmail.com>"
+    __copyright__ = "Copyleft (c) 2021"
     version_text = "\n".join(
         [
-            "pyfoobar {} [Python {}.{}.{}]".format(
+            "pyvseir {} [Python {}.{}.{}]".format(
                 __version__,
                 sys.version_info.major,
                 sys.version_info.minor,

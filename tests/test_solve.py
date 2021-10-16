@@ -1,5 +1,5 @@
-import pyfoobar
+import pyvseir
 
 
 def test_solve():
-    assert pyfoobar.solve() == 42
+    assert pyvseir.solve() == 42

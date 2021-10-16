@@ -1,5 +1,5 @@
-import pyfoobar
+import pyvseir
 
 
 def test_cli():
-    pyfoobar.show(["27"])
+    pyvseir.show(["27"])
