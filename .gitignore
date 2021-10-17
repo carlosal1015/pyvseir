@@ -11,3 +11,4 @@ build/
 .tox/
 .vscode/
 .venv/
+__pycache__
