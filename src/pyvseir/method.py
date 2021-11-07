@@ -5,7 +5,7 @@
 import numpy as np
 
 
-def ForwardEuler(fun: function, y0: np.array, a: float, b: float, n: int) -> np.array:
+def ForwardEuler(fun, y0: np.array, a: float, b: float, n: int) -> np.array:
     """[summary]
 
     Args:
